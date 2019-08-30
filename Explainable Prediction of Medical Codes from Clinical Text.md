@@ -15,7 +15,7 @@ The problem can be seen as a Multi-label problem.
 
 ## Method
 * The model architexture is shown below:
-* ![alt text](https://github.com/trx14/paper-reading/blob/master/img/figure1.png)
+![alt text](https://github.com/trx14/paper-reading/blob/master/img/figure1.png)
 
 ## Result
 * content
