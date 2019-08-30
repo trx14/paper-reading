@@ -15,7 +15,7 @@ and gives a set of medications and their mappings to those disease conditions. T
 ## Method
 * (1) using a RNN based model to model label dependency, using an atteniton mechanism to map label-instance dependency.
 * The model is shown below:
-
+![](https://github.com/trx14/paper-reading/blob/master/img/Screen%20Shot%202019-08-30%20at%2011.44.10.png)
 ## Result
 * content
 
