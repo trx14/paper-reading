@@ -1,1 +1,1 @@
-This folder collect all images used.
+This folder collects all images used.
