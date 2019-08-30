@@ -10,7 +10,7 @@
 * In this work, the objective is to learn a prediction model from an EHR that take a set of disease conditions as input 
 and gives a set of medications and their mappings to those disease conditions. This is a Multi-instance and Multi-label problem.
 
-* difficulty: There have drug-drug/ drug-disease/ disease-disease interactions. And different mapping situations: one-one mapping, many-one, many-many.
+* difficulty: There have drug-drug/ drug-disease/ disease-disease interactions and different mapping situations: one-one mapping, many-one, many-many.
 ![](https://github.com/trx14/paper-reading/blob/master/img/Screen%20Shot%202019-08-30%20at%2011.44.02.png)
 
 ## Method
