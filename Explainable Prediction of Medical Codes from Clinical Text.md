@@ -19,7 +19,7 @@ The problem can be seen as a Multi-label problem.
 * First we have de-dimensional pre-trained embeddings for each word in the document. (1) concatenated the document words into a metrix **X = [x1, x2, x3, ..., xN]**. (2) Using convolutional filter W project the X into H. For each label, caculating a attenion vector A. Using the A*H get the final embedding vector V. After a fully connect layer and a sigmoid function get the probability Y(0 or 1).
 
 * To solve the large label space problem, the paper add a regularization. The propose of this regularization is make the similar discription labels have similar \beta parameter. The discriptions of ICD are from World Health Organization.
-![alt text](https://github.com/trx14/paper-reading/blob/master/img/Screen%20Shot%202019-08-30%20at%2010.54.59.png)
+* ![alt text](https://github.com/trx14/paper-reading/blob/master/img/Screen%20Shot%202019-08-30%20at%2010.54.59.png)
 
 ## Result
 * **Dataset**: MIMIC-III, 47,724 discharge summarises from 36,998 patient for training. 1,632 and 3,372 summaries for validation an testing.
