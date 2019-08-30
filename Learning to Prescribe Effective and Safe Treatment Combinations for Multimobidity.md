@@ -20,6 +20,8 @@ and gives a set of medications and their mappings to those disease conditions. T
 * This model can't avoid all adverse drug interactions. Because the training set didn't have negative training samples.
 This paper propose fine-tuning model via model-free reinforcement learning. They sellected many pairs from the training set. The reward comes from two parts. (1)the prediction quality, according to the similarity. (2)Avoid adverse, if the prediciton contain some adverse interaction, the reward will be zero.
 
+* **Dataset**(1)MIMIC-3 (2)Sutter
+
 ## Result
 * content
 
