@@ -11,7 +11,8 @@
 ![](https://github.com/trx14/paper-reading/blob/master/img/retain_1.png)
 ![](https://github.com/trx14/paper-reading/blob/master/img/retain_3.png)
 * By projecting the X into V(simple method), X and the attention value are seperate, which make the model more interpretable.
-The ideal of using V as input could originate from :(1) we want use attention value times input value to get the final decision, this could help us write a linear expression about input. But this method will damage the accuracy apparently. (2)we could first project the X into V, using V as input, atteion values times V get the final decision. This could help us write the linear expresssion as well as improve the model accuarcy(because the projection could offer some nonlinear transformation)
+
+* The ideal of using V as input could originate from :(1) we want use attention value times input value to get the final decision, this could help us write a linear expression about input. But this method will damage the accuracy apparently. (2)we could first project the X into V, using V as input, atteion values times V get the final decision. This could help us write the linear expresssion as well as improve the model accuarcy(because the projection could offer some nonlinear transformation)
 
 ## Method
 * Model structure show below:
