@@ -42,4 +42,4 @@
 * **Equal allocation**: Allocation of resources as decided by the model is equal across groups, possibly after controlling for all relevant factors.
 
 ## Result
-* content
+* ![](https://github.com/trx14/paper-reading/blob/master/img/Screen%20Shot%202019-09-03%20at%2020.32.52.png)
